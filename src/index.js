@@ -1,7 +1,7 @@
 import './css/styles.css';
 import * as say from "./fetchCountries"
-import allCountries from "../templates/allCountries.hbs"
-import countrie from "../templates/countrie.hbs"
+import allCountries from "./templates/allCountries.hbs"
+import countrie from "./templates/countrie.hbs"
 import Notiflix from 'notiflix';
 import debounce from 'lodash.debounce';
 const inputFieldEl=document.querySelector("#search-box")
